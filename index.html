@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Srikar Devaki</title>
+    
+    <!-- Modern, clean fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Space+Grotesk:wght@500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    
+    <link rel="stylesheet" href="style.css?v=2">
+</head>
+<body>
+
+    <nav class="navbar">
+        <div class="nav-container">
+            <a href="#" class="logo">SD.</a>
+            <div class="nav-links">
+                <a href="#about">About</a>
+                <a href="#skills">Skills</a>
+                <a href="#education">Education</a>
+                <a href="#contact">Contact</a>
+            </div>
+            <button class="mobile-menu-btn" aria-label="Toggle Menu">
+                <i class="fa-solid fa-bars"></i>
+            </button>
+        </div>
+    </nav>
+
+    <div class="mobile-nav">
+        <a href="#about">About</a>
+        <a href="#skills">Skills</a>
+        <a href="#education">Education</a>
+        <a href="#contact">Contact</a>
+    </div>
+
+    <main class="container">
+        <!-- Hero Section -->
+        <section class="hero">
+            <div class="hero-content">
+                <h1>Srikar Devaki</h1>
+                <div class="typewriter-wrap">
+                    <span id="typewriter" class="typewriter"></span><span class="cursor">|</span>
+                </div>
+                <p class="hero-desc">
+                    I'm a BCA student at REVA University based in Bengaluru, focusing on web development and Python programming. I enjoy building clean, functional applications and am currently looking for opportunities to contribute to real-world engineering projects.
+                </p>
+                <div class="hero-actions">
+                    <a href="Srikar_Devaki_Resume.pdf" target="_blank" class="btn">View Resume <i class="fa-solid fa-arrow-right"></i></a>
+                    <div class="social-links">
+                        <a href="https://github.com/srikardevaki9-cyber" target="_blank" aria-label="GitHub"><i class="fa-brands fa-github"></i></a>
+                        <a href="https://www.linkedin.com/in/srikar-devaki-599a05343?utm_source=share_via&utm_content=profile&utm_medium=member_ios" target="_blank" aria-label="LinkedIn"><i class="fa-brands fa-linkedin-in"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="hero-image">
+                <div class="pop-out-bg"></div>
+                <img src="profile.png" alt="Srikar Devaki">
+            </div>
+        </section>
+
+        <hr class="divider">
+
+        <!-- Skills Section -->
+        <section id="skills" class="section fade-up">
+            <h2 class="section-heading">Technical Skills</h2>
+            <div class="skills-layout">
+                <div class="skill-group">
+                    <h3>Languages</h3>
+                    <p>JavaScript, Python, C, HTML, CSS</p>
+                </div>
+                <div class="skill-group">
+                    <h3>Databases & Tools</h3>
+                    <p>MySQL, RDBMS Concepts, Git</p>
+                </div>
+                <div class="skill-group">
+                    <h3>Core Competencies</h3>
+                    <p>Problem Solving, Analytical Thinking, Team Collaboration</p>
+                </div>
+            </div>
+        </section>
+
+        <hr class="divider">
+
+        <!-- Education & Certifications Section -->
+        <section id="education" class="section fade-up">
+            <div class="split-section">
+                
+                <div class="split-col">
+                    <h2 class="section-heading">Education</h2>
+                    <div class="timeline-item">
+                        <div class="meta">July 2024 – Aug 2027</div>
+                        <h3>Bachelor of Computer Applications</h3>
+                        <p>REVA University, Bengaluru</p>
+                    </div>
+                    <div class="timeline-item">
+                        <div class="meta">Jun 2022 – Apr 2024</div>
+                        <h3>12th Grade (PCM)</h3>
+                        <p>Narayana Junior College</p>
+                    </div>
+                </div>
+
+                <div class="split-col">
+                    <h2 class="section-heading">Certifications</h2>
+                    <ul class="cert-list">
+                        <li>
+                            <strong>Web Programming (HTML, CSS, JS)</strong>
+                            <span>MeViTechnologies LLP</span>
+                        </li>
+                        <li>
+                            <strong>Java Applications for Modern Solutions</strong>
+                            <span>GIGA SKILL</span>
+                        </li>
+                        <li>
+                            <strong>DBMS & Microsoft Fabric SQL</strong>
+                            <span>Udemy</span>
+                        </li>
+                        <li>
+                            <strong>Python PCAP Certification</strong>
+                            <span>Udemy</span>
+                        </li>
+                    </ul>
+                </div>
+
+            </div>
+        </section>
+
+        <hr class="divider">
+
+        <!-- Contact Section -->
+        <section id="contact" class="section fade-up">
+            <h2 class="section-heading">Get in touch</h2>
+            <p class="contact-text">I'm currently looking for new opportunities and collaborations. Whether you have a question or just want to say hi, feel free to drop a message.</p>
+            
+            <ul class="contact-details">
+                <li><i class="fa-regular fa-envelope"></i> <a href="mailto:srikardevaki9@gmail.com">srikardevaki9@gmail.com</a></li>
+                <li><i class="fa-solid fa-phone"></i> <a href="tel:+917396399777">+91 73963 99777</a></li>
+                <li><i class="fa-solid fa-location-dot"></i> Bengaluru, India</li>
+            </ul>
+        </section>
+        
+        <footer>
+            <p>&copy; <span id="year"></span> Srikar Devaki. Built from scratch.</p>
+        </footer>
+
+    </main>
+
+    <script src="script.js?v=3"></script>
+</body>
+</html>
